@@ -1,7 +1,6 @@
 package com.dalmeng.realtime.redis
 
 import jakarta.annotation.PostConstruct
-import org.slf4j.LoggerFactory
 import org.springframework.data.redis.connection.ReactiveRedisConnectionFactory
 import org.springframework.data.redis.listener.PatternTopic
 import org.springframework.data.redis.listener.ReactiveRedisMessageListenerContainer
