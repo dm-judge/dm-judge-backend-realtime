@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: realtime
+  webflux:
+    base-path: /api/v1/realtime
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+server:
+  port:
+    8083
